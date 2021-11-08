@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    width: 1440px;
+    font-family: Kumbh Sans;
+}
+div.display{
+    width: 1440px;
+}
+div.imagem_top{
+	position: absolute;
+    left: -5%;
+    top: -45%;
+}
+/*div.imagem_bottom{
+	position: absolute;
+    right: -5%;
+    bottom: -60%;
+}*/
+div.container{
+    position: absolute;
+    left: 38%;
+    top: 25%;
+    bottom: 25%;
+    background-color:white;
+    width: 410px;
+    height: 420px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+img.foto{
+    border-radius: 50%;
+    position: absolute;
+    left: 36.7%;
+    top:20%;
+    border: 7px solid white;
+    width: 25%;
+}
+div.caixa1,.img1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 410px;
+    height: 155px;
+}
+h1.nome{
+    font-size: 18px;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+    margin-top: 75px;
+}
+span{
+color: hsl(227, 10%, 46%);
+font-weight: 400;
+
+}
+p{
+color: hsl(227, 10%, 46%);
+font-weight: 400;
+text-align: center;
+margin-bottom: 35px;
+font-size: 12px;
+}
+div.caixa3{
+    display: flex;
+    border-top: 0.1px solid hsla(227, 10%, 46%, 0.205);
+    height: 50px;
+}
+div.tabela1, .tabela2, .tabela3{
+    width: 156.6px;
+}
+div.caixa2{
+    height:80px;
+}
+h1{
+    font-size: 18px;
+    font-family: Kumbh Sans,sans-serif;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+    margin-top: 35px;
+    line-height: 10px;
+    
+}
+span.london{
+    margin-top:50px;
+    font-size:15px;
+    line-height: 35px;
+}
